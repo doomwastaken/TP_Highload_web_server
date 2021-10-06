@@ -14,7 +14,7 @@ def read_config(filename: str) -> (int, str):
 
 
 HOST = "0.0.0.0"
-PORT = 8080
+PORT = 80
 CONFIG_FILE = "/home/vk/tp/TP_Highload_web_server/httpd.conf"
 
 CPU_LIMIT, DOCUMENT_ROOT = read_config(CONFIG_FILE)
